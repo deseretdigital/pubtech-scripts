@@ -31,7 +31,6 @@ class MysqlTableNamesCommand extends Command
           'password' => "",
           'dbname' => ""
         ];
-        $questions = [];
 
         foreach ($questions as $key=>$question) {
             $q = new Question($question['question']);
