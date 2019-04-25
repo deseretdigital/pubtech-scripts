@@ -8,7 +8,7 @@ const CHECK_POOLS = process.env.CHECK_POOLS
   : null;
 const CHUNK_SIZE = 10;
 
-const baseUri = "http://ddmmedia03.deseretdigital.com";
+const baseUri = process.env.MEDIA_SERVER;
 const baseHeaders = {
   Accept: "application/json",
   "Content-Type": "application/json",
